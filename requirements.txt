@@ -1,0 +1,5 @@
+pelican>=3.0
+beautifulsoup4~=4.0.0
+black
+twine
+
