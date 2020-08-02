@@ -19,14 +19,14 @@ from pelican_decorate_content import decorate_content
 
 # ...
 
-PLUGINS = [decorate_content]
+PLUGINS = [decorate_content,] # mix and match with other plugins as needed
 ```
 
 ## Configuration
 
 ### Global settings
 
-Global configuration happens in a `DECORATE_CONTENT` setting, which is a dict that maps CSS selectors to a list of classes that will be added to each match:
+Global configuration happens in a `DECORATE_CONTENT` setting in `pelicanconf.py`. It is a dict that maps CSS selectors to a list of classes that will be added to each match:
 
 ```py
 DECORATE_CONTENT = {
