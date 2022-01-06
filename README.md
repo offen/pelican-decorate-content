@@ -1,3 +1,7 @@
+<a href="https://www.offen.dev/">
+    <img src="https://offen.github.io/press-kit/offen-material/gfx-GitHub-Offen-logo.svg" alt="Offen logo" title="Offen" width="150px"/>
+</a>
+
 # pelican-decorate-content
 
 A Pelican plugin for rule-based addition of classes to your content. This can be useful when you use a functional CSS toolset (e.g. Tachyons) to style your site and do not want to write custom CSS targeting your content.
